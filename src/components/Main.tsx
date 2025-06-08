@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import Portfolios from "./Portfolios";
+import Skills from "./Skills";
 function Main() {
   return (
     <div className="w-full h-auto flex flex-col items-center">
@@ -63,22 +64,20 @@ function Main() {
           Skills I have acquired over the years
         </p>
       </div>
-      <div className="mt-[35px]">
-        <div className="flex">
-          <img src="../../public/Group 1000001884.png" alt="" />
-          <img src="../../public/Group xd.png" alt="" />
-        </div>
-        <div className="flex">
-          <img src="../../public/Group ps.png" alt="" />
-          <img src="../../public/Group ai.png" alt="" />
-        </div>
-        <div className="flex">
-          <img src="../../public/Group html.png" alt="" />
-          <img src="../../public/Group sketch.png" alt="" />
-        </div>
+      <div className="w-full h-[330px] mt-[35px] grid grid-cols-12 grid-rows-3 justify-items-center">
+        <Skills />
+        <Skills />
+        <Skills />
+        <Skills />
+        <Skills />
+        <Skills />
       </div>
-      <img src="../../public/Vector2.png" alt="goat" className="mt-[36px]" />
-      <div className="text-white w-full flex flex-col items-center">
+      <div className="text-white w-full flex flex-col items-center mt-28 relative">
+        <img
+          src="../../public/Vector2.png"
+          alt="goat"
+          className="w-42 absolute bottom-0 mr-10"
+        />
         <button className="w-[105px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
           Portfolio
         </button>
@@ -103,7 +102,7 @@ function Main() {
         <img
           src="../../public/Vector 3.png"
           alt="goat"
-          className="absolute -bottom-[295px] w-[200px]"
+          className="absolute -bottom-[285px] ml-9 "
         />
       </div>
       <div className="text-white w-full flex flex-col items-center mt-[124px]">
@@ -115,7 +114,44 @@ function Main() {
           Our Services is high-end with best quality that you could ever seen
         </p>
       </div>
-      <Portfolios />
+      <Portfolios>
+        <div className="w-full h-full flex flex-col items-center py-8">
+          <div className="w-[50px] h-[50px] bg-[#101010] flex justify-center items-center rounded-full">
+            <Icon
+              icon="mingcute:phone-call-line"
+              width="20"
+              height="20"
+              className="text-white"
+            />
+          </div>
+          <div className="flex gap-2 text-white items-center mt-[35px]">
+            <Icon icon="uil:phone" width="20" height="20" className="mt-2" />
+            <span>+0991-1476750</span>
+          </div>
+          <div className="flex gap-2 text-white items-center mt-[20px]">
+            <Icon icon="solar:letter-bold" width="20" height="20" />
+            <span>ar.sing7979@gmail.com</span>
+          </div>
+          <div className="flex gap-4 w-full justify-center items-center mt-[40px]">
+            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
+              <Icon icon="basil:instagram-outline" width="20" height="20" />
+            </div>
+            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
+              <Icon icon="ri:twitter-fill" width="20" height="20" />
+            </div>
+            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
+              <Icon icon="line-md:linkedin" width="20" height="20" />
+            </div>
+            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
+              <Icon icon="basil:instagram-outline" width="20" height="20" />
+            </div>
+            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
+              <Icon icon="basil:instagram-outline" width="20" height="20" />
+            </div>
+          </div>
+          <img src="../../public/Vector 4.png" alt="" />
+        </div>
+      </Portfolios>
     </div>
   );
 }

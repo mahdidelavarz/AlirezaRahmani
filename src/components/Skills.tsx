@@ -1,8 +1,8 @@
 import GradientLine from "./ui/GradientLine";
 
-function Portfolios({children}) {
+function Skills() {
   return (
-    <div className="w-[276px] h-[429px] relative my-10">
+    <div className="w-[145px] h-[110px] relative col-span-6 row-span-1">
       <GradientLine
         CWidth={"w-full"}
         CHeight={"h-0.5"}
@@ -27,9 +27,8 @@ function Portfolios({children}) {
         isAbsolute={"absolute left-0 "}
         gradient={"bg-gradient-to-b"}
       />
-      {children}
     </div>
   );
 }
 
-export default Portfolios;
+export default Skills;
