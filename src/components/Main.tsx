@@ -5,29 +5,29 @@ import { portfolios, skills } from "../data/data";
 function Main() {
   return (
     <div className="w-full h-auto flex flex-col items-center">
-      <div className="mb-[36px] mt-[60px] flex items-center">
+      <div className="mb-[36px] mt-[60px] flex items-center z-50">
         <div className="flex gap-4 w-full justify-center items-center">
-          <div className="w-7 h-7 flex justify-center items-center   rounded-full">
+          <div className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center   rounded-full">
             <img src="/iconmonstr-instagram-14 1.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+          <div className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full">
             <img src="/twitter.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+          <div className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full">
             <img src="/iconmonstr-linkedin-4 1.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+          <div className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full">
             <img src="/Behance.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+          <div className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full">
             <img src="/icon D.png" alt="" />
           </div>
         </div>
       </div>
-      <h1 className="font-extrabold text-white text-[32px] lg:text-[50px]">
+      <h1 className="font-extrabold text-white text-[32px] lg:text-[50px] z-50">
         Alireza Rahmani
       </h1>
-      <div className="text-white w-full flex flex-col items-center mt-[12px] gap-2">
+      <div className="text-white w-full flex flex-col items-center mt-[12px] gap-2 z-50">
         <h2 className="font-bold text-[22px] lg:text-[24px]">UI/UX Designer</h2>
         <p className="lg:text-[16px]">
           Helping brands improve their product experience
@@ -76,7 +76,7 @@ function Main() {
         <img
           src="/Vector.png"
           alt="goat"
-          className="absolute lg:-top-35 -top-20 lg:w-[461px] right-[50%] left-[50%] -translate-x-[40%]"
+          className="absolute lg:-top-45 -top-20 lg:w-[461px] right-[50%] left-[50%] -translate-x-[40%]"
         />
         <button className="w-[105px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
           Who am i?
@@ -165,7 +165,7 @@ function Main() {
         <img
           src="/Vector 3.png"
           alt="goat"
-          className="absolute bottom-[20px] lg:-bottom-[55px] right-[50%] left-[50%] -translate-x-[60%] lg:w-[247px]"
+          className="absolute bottom-[20px] lg:-bottom-[45px] right-[50%] left-[50%] -translate-x-[60%] lg:w-[247px]"
         />
         <button className="w-[71px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
           Call me
