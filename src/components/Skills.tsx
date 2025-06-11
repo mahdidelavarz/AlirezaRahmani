@@ -2,7 +2,7 @@ import GradientLine from "./ui/GradientLine";
 
 function Skills({children, hasBottomBorder}: {children: React.ReactNode, hasBottomBorder?: boolean}) {
   return (
-    <div className="w-[145px] h-[110px] relative col-span-6 row-span-1 overflow-hidden">
+    <div className="w-[145px] lg:w-[472px] h-[110px] lg:h-[180px] relative col-span-6 row-span-1 lg:col-span-4 overflow-hidden">
       
       <div className="w-[40px] h-[1px] rounded-sm bg-[#D9D9D9] absolute top-[1.5px] right-[50%] left-[50%] -translate-[50%]" style={{ boxShadow: "0px 24px 130px 50px #E9E9E92A" }}></div>
       <GradientLine

@@ -7,94 +7,102 @@ function Main() {
     <div className="w-full h-auto flex flex-col items-center">
       <div className="mb-[36px] mt-[60px] flex items-center">
         <div className="flex gap-4 w-full justify-center items-center">
-          <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-            <Icon icon="basil:instagram-outline" width="20" height="20" />
+          <div className="w-7 h-7 flex justify-center items-center   rounded-full">
+            <img src="/iconmonstr-instagram-14 1.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-            <Icon icon="ri:twitter-fill" width="20" height="20" />
+          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+            <img src="/twitter.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-            <Icon icon="line-md:linkedin" width="20" height="20" />
+          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+            <img src="/iconmonstr-linkedin-4 1.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-            <Icon icon="basil:instagram-outline" width="20" height="20" />
+          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+            <img src="/Behance.png" alt="" />
           </div>
-          <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-            <Icon icon="basil:instagram-outline" width="20" height="20" />
+          <div className="w-7 h-7 flex justify-center items-center rounded-full">
+            <img src="/icon D.png" alt="" />
           </div>
         </div>
       </div>
-      <h1 className="font-extrabold text-white text-[32px]">Alireza Rahmani</h1>
+      <h1 className="font-extrabold text-white text-[32px] lg:text-[50px]">
+        Alireza Rahmani
+      </h1>
       <div className="text-white w-full flex flex-col items-center mt-[12px] gap-2">
-        <h2 className="font-bold text-[22px]">UI/UX Designer</h2>
-        <p>Helping brands improve their product experience</p>
+        <h2 className="font-bold text-[22px] lg:text-[24px]">UI/UX Designer</h2>
+        <p className="lg:text-[16px]">
+          Helping brands improve their product experience
+        </p>
       </div>
-      <div className="w-[240px] h-[240px]  mt-[36px] z-50 rounded-full relative">
-        <div className="w-[35px] h-[35px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute top-10 left-3">
-          <img src="../../public/adobe-xd-icon 1.png" alt="adobe" />
+      <div className="w-[240px] h-[240px] lg:w-[300px] lg:h-[300px]  mt-[36px] z-50 rounded-full relative">
+        <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute top-10 left-3">
+          <img src="/adobe-xd-icon 1.png" alt="adobe" />
         </div>
-        <div className="w-[35px] h-[35px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute top-10 right-3 flex justify-center items-center">
+        <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute top-10 right-3 flex justify-center items-center">
           <img
-            src="../../public/figma0.png"
+            src="/figma0.png"
             alt="adobe"
-            className="w-[16px] object-cover"
+            className="w-[16px] lg:w-[23px] object-cover"
           />
         </div>
-        <div className="w-[109px] h-[35px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute bottom-10 -left-5 flex justify-center items-center gap-1">
+        <div className="w-[109px] h-[35px] lg:w-[152px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute bottom-10 -left-5 flex justify-center items-center gap-1">
           <img
-            src="../../public/icon 2.png"
+            src="/icon 2.png"
             alt="adobe"
-            className="w-[18px] object-cover"
+            className="w-[18px] lg:w-[26px] object-cover"
           />
-          <span className="text-[10px] font-bold text-white">FLOW CHART</span>
+          <span className="text-[10px] lg:text-[14px] font-bold text-white">
+            FLOW CHART
+          </span>
         </div>
-        <div className="w-[75px] h-[35px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute bottom-10 right-0 flex justify-center items-center gap-1">
+        <div className="w-[75px] h-[35px] lg:w-[100px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm blur-md] absolute bottom-10 right-0 flex justify-center items-center gap-1">
           <img
-            src="../../public/uikit-seek icon.png"
+            src="/uikit-seek icon.png"
             alt="adobe"
-            className="w-[18px] object-cover"
+            className="w-[18px] lg:w-[22px] object-cover"
           />
-          <span className="text-[10px] font-bold text-white">UI KIT</span>
+          <span className="text-[10px] lg:text-[14px] font-bold text-white">
+            UI KIT
+          </span>
         </div>
-        <img
-          src="../../public/profile.png"
-          alt="profile"
-          className=" object-cover"
-        />
+        <img src="/profile.png" alt="profile" className=" object-cover" />
       </div>
-      <div className="w-full flex justify-center gap-2 mt-[45px] text-white relative">
+      <div className="w-full flex justify-center gap-2 mt-[45px] text-white">
         <Icon icon="mdi:email" width="24" height="24" />
-        <p className="font-bold text-[16px] underline">ar.sing7979@gmail.com</p>
+        <p className="font-bold text-[16px] lg:text-20px underline">
+          ar.sing7979@gmail.com
+        </p>
       </div>
-      <img
-        src="../../public/Vector.png"
-        alt="goat"
-        className="absolute -bottom-21"
-      />
-      <div className="text-white mt-[103px] w-full flex flex-col items-center">
+      <div className="text-white mt-[103px] lg:mt-[200px] w-full flex flex-col items-center relative">
+        <img
+          src="/Vector.png"
+          alt="goat"
+          className="absolute lg:-top-35 -top-20 lg:w-[461px] right-[50%] left-[50%] -translate-x-[40%]"
+        />
         <button className="w-[105px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
           Who am i?
         </button>
-        <h2 className="font-extrabold text-[22px] mt-[20px]">About Me</h2>
+        <h2 className="font-extrabold text-[22px] lg:text-[34px] mt-[20px]">
+          About Me
+        </h2>
         <p
-          className="mt-[15px] w-[310px] leading-7 text-[15px]"
+          className="mt-[15px] w-[310px] lg:w-[1420px] lg:text-[22px] lg:ml-6 text-[15px]"
           style={{ wordSpacing: "3px" }}
         >
           i Am Alireza Rahmani With 3 Years Of Work Experience As A Product
           Designer And I Have Acquired The Necessary Skills And Knowledge For
           The Success Of Various Projects.
         </p>
-        <button className="w-[180px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454] mt-[77px]">
+        <button className="w-[180px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454] mt-[77px] lg:mt-[300px]">
           What do I know how to do?
         </button>
-        <span className="font-extrabold text-[22px] mt-[20px]">
+        <span className="font-extrabold text-[22px] mt-[20px] lg:text-[34px]">
           our mission
         </span>
-        <p className="text-14px mt-[15px]">
+        <p className="text-14px mt-[15px] lg:text-[18px]">
           Skills I have acquired over the years
         </p>
       </div>
-      <div className="w-[320px] h-[330px] mt-[35px] grid grid-cols-12 grid-rows-3 justify-items-center">
+      <div className="w-[320px] h-[330px] lg:w-[1416px] lg:h-[360px] mt-[35px] grid grid-cols-12 grid-rows-3 lg:grid-rows-2 justify-items-center">
         {skills.map((skill) => (
           <Skills key={skill.id} hasBottomBorder={skill.hasBottomBorder}>
             <div className="w-full h-full flex flex-col justify-center items-center">
@@ -108,23 +116,28 @@ function Main() {
           </Skills>
         ))}
       </div>
-      <div className="text-white w-full flex flex-col items-center mt-28 relative">
+      <div className="text-white w-full flex flex-col items-center mt-28 lg:mt-[385px] relative">
         <img
-          src="../../public/Vector2.png"
+          src="/Vector2.png"
           alt="goat"
-          className="w-42 absolute bottom-0 mr-10"
+          className="w-42 lg:w-[247px] absolute -bottom-10 mr-10"
         />
         <button className="w-[80px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
           Portfolio
         </button>
-        <h2 className="font-extrabold text-[22px] mt-[20px]">My portfolio</h2>
-        <p className="mt-[15px] w-[320px] leading-7">
+        <h2 className="font-extrabold text-[22px] lg:text-[30px] mt-[20px]">
+          My portfolio
+        </h2>
+        <p className="mt-[15px] lg:text-18px w-[320px] lg:w-[622px] leading-7 lg:flex lg:justify-center">
           Projects that I had the honor of collaborating with these dear people.
         </p>
       </div>
-      <div className="relative">
+      <div className="relative lg:grid lg:grid-cols-4 mt-10 gap-x-[70px] ">
         {portfolios.map((portfolio) => (
-          <Portfolios key={portfolio.id} style="h-[462px] w-[310px]">
+          <Portfolios
+            key={portfolio.id}
+            style="h-[462px] w-[310px] lg:w-[303px] h-[484px]"
+          >
             <div className="w-full h-full p-4 flex flex-col items-center relative">
               <img
                 src={portfolio.img}
@@ -132,14 +145,14 @@ function Main() {
                 className="w-full h-full object-cover object-top rounded-md"
               />
               <div
-                className="w-full h-[429px] absolute top-7"
+                className="w-full h-[449px] lg:h-[451px] absolute top-7"
                 style={{
                   background:
                     "linear-gradient(180deg, rgba(1, 1, 0, 0) 60%, #000000 85%)",
                 }}
               ></div>
               <button
-                className="w-[177px] h-[35px]  bg-[#121212] text-white font-bold underline text-[14px] rounded-[6px] border border-[#34343454] absolute bottom-[26px]"
+                className="w-[177px] h-[35px]  bg-[#121212] text-white font-bold underline text-[14px] rounded-[6px] border border-[#34343454] absolute bottom-[26px] cursor-pointer"
                 onClick={() => window.open(portfolio.link, "_blank")}
               >
                 {portfolio.title}
@@ -147,22 +160,24 @@ function Main() {
             </div>
           </Portfolios>
         ))}
-        <img
-          src="../../public/Vector 3.png"
-          alt="goat"
-          className="absolute -bottom-[285px] ml-9 "
-        />
       </div>
-      <div className="text-white w-full flex flex-col items-center mt-[124px]">
+      <div className="text-white w-full flex flex-col items-center mt-[124px] lg:mt-[302px] relative">
+        <img
+          src="/Vector 3.png"
+          alt="goat"
+          className="absolute bottom-[20px] lg:-bottom-[55px] right-[50%] left-[50%] -translate-x-[60%] lg:w-[247px]"
+        />
         <button className="w-[71px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
           Call me
         </button>
-        <h2 className="font-extrabold text-[22px] mt-[20px]">Contact us</h2>
-        <p className="mt-[15px] w-[320px] leading-7">
+        <h2 className="font-extrabold text-[22px] lg:text-[30px] mt-[20px]">
+          Contact us
+        </h2>
+        <p className="mt-[15px] w-[320px] leading-7 lg:text-[18px] lg:w-[606px] lg:flex lg:justify-center">
           Our Services is high-end with best quality that you could ever seen
         </p>
       </div>
-      <Portfolios style="h-[530px] w-[310px]">
+      <Portfolios style="h-[530px] w-[310px] lg:mt-[100px] ">
         <div className="w-full h-full flex flex-col items-center py-8">
           <div className="w-[50px] h-[50px] bg-[#101010] flex justify-center items-center rounded-full">
             <Icon
@@ -181,23 +196,23 @@ function Main() {
             <span>ar.sing7979@gmail.com</span>
           </div>
           <div className="flex gap-4 w-full justify-center items-center mt-[40px]">
-            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-              <Icon icon="basil:instagram-outline" width="20" height="20" />
+            <div className="w-7 h-7 flex justify-center items-center   rounded-full">
+              <img src="/iconmonstr-instagram-14 1.png" alt="" />
             </div>
-            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-              <Icon icon="ri:twitter-fill" width="20" height="20" />
+            <div className="w-7 h-7 flex justify-center items-center rounded-full">
+              <img src="/twitter.png" alt="" />
             </div>
-            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-              <Icon icon="line-md:linkedin" width="20" height="20" />
+            <div className="w-7 h-7 flex justify-center items-center rounded-full">
+              <img src="/iconmonstr-linkedin-4 1.png" alt="" />
             </div>
-            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-              <Icon icon="basil:instagram-outline" width="20" height="20" />
+            <div className="w-7 h-7 flex justify-center items-center rounded-full">
+              <img src="/Behance.png" alt="" />
             </div>
-            <div className="w-7 h-7 flex justify-center items-center  bg-white rounded-full">
-              <Icon icon="basil:instagram-outline" width="20" height="20" />
+            <div className="w-7 h-7 flex justify-center items-center rounded-full">
+              <img src="/icon D.png" alt="" />
             </div>
           </div>
-          <img src="../../public/Vector 4.png" alt="" />
+          <img src="/Vector 4.png" alt="" className="w-[254px] h-[225px]" />
         </div>
       </Portfolios>
     </div>
