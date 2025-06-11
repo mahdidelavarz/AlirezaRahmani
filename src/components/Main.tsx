@@ -29,7 +29,7 @@ function Main() {
       </h1>
       <div className="text-white w-full flex flex-col items-center mt-[12px] gap-2 z-50">
         <h2 className="font-bold text-[22px] lg:text-[24px]">UI/UX Designer</h2>
-        <p className="lg:text-[16px]">
+        <p className="lg:text-[16px] text-[12px] flex justify-center">
           Helping brands improve their product experience
         </p>
       </div>
@@ -215,6 +215,9 @@ function Main() {
           <img src="/Vector 4.png" alt="" className="w-[254px] h-[225px]" />
         </div>
       </Portfolios>
+      <div className="w-full h-[50px] lg:h-[60px] lg:text-[17px] bg-[#121212] flex justify-center items-center z-50 text-white">
+        © Alireza Rahmani
+      </div>
     </div>
   );
 }
