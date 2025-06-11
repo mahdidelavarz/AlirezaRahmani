@@ -109,7 +109,7 @@ function Main() {
               <div className="w-[42px] h-[42px] ring-4 ring-[#34343442] flex justify-center items-center rounded-full">
                 <img src={skill.img} alt="" className="" />
               </div>
-              <p className="text-[12px] font-bold mt-2 text-white text-shadow-md text-shadow-white/10">
+              <p className="text-[12px] lg:text-[16px] font-bold mt-2 text-white text-shadow-md text-shadow-white/10">
                 {skill.title}
               </p>
             </div>
