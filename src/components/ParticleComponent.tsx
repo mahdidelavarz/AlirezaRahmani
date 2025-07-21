@@ -37,7 +37,7 @@ const ParticleComponent = () => {
       fpsLimit: 60,
       particles: {
         number: {
-          value: 40, // Increased for more stars
+          value: 100, // Increased for more stars
           density: {
             enable: true,
             value_area: 800,
@@ -69,7 +69,8 @@ const ParticleComponent = () => {
           },
         },
         move: {
-          enable: false, // Fixed position for stars
+          enable: true, // Fixed position for stars
+          speed: 0.1,
         },
         wobble: {
           enable: false, // Disable wobble for static stars
