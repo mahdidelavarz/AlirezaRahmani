@@ -1,5 +1,4 @@
 import { Icon } from "@iconify/react";
-import Portfolios from "./Portfolios";
 import Skills from "./Skills";
 import { portfolios, skills } from "../data/data";
 import { motion, LazyMotion, MotionConfig, domAnimation } from "framer-motion";
@@ -8,7 +7,6 @@ import { Suspense, lazy } from "react";
 
 // Lazy load heavy subcomponents (optional)
 const LazyPortfolios = lazy(() => import("./Portfolios"));
-const LazySkills = lazy(() => import("./Skills"));
 
 function Main() {
   // Use react-intersection-observer to trigger animations when sections are in view
