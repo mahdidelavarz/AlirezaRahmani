@@ -10,10 +10,22 @@ const LazyPortfolios = lazy(() => import("./Portfolios"));
 
 function Main() {
   // Use react-intersection-observer to trigger animations when sections are in view
-  const { ref: aboutRef, inView: aboutInView } = useInView({ triggerOnce: true, threshold: 0.2 });
-  const { ref: skillsRef, inView: skillsInView } = useInView({ triggerOnce: true, threshold: 0.2 });
-  const { ref: portfolioRef, inView: portfolioInView } = useInView({ triggerOnce: true, threshold: 0.2 });
-  const { ref: contactRef, inView: contactInView } = useInView({ triggerOnce: true, threshold: 0.2 });
+  const { ref: aboutRef, inView: aboutInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+  const { ref: skillsRef, inView: skillsInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+  const { ref: portfolioRef, inView: portfolioInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+  const { ref: contactRef, inView: contactInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
 
   return (
     <div className="w-full h-auto flex flex-col items-center">
@@ -27,7 +39,12 @@ function Main() {
                 animate={{ opacity: 1, y: 0 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <img src="/iconmonstr-instagram-14 1.png" alt="Instagram" className="object-cover" loading="lazy" />
+                <img
+                  src="/iconmonstr-instagram-14 1.png"
+                  alt="Instagram"
+                  className="object-cover"
+                  loading="lazy"
+                />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -81,7 +98,9 @@ function Main() {
           transition={{ delay: 0.2 }}
           className="text-white w-full flex flex-col items-center mt-[12px] gap-2 z-50"
         >
-          <h2 className="font-bold text-[22px] lg:text-[24px]">UI/UX Designer</h2>
+          <h2 className="font-bold text-[22px] lg:text-[24px]">
+            UI/UX Designer
+          </h2>
           <p className="lg:text-[16px] text-[12px] flex justify-center">
             Helping brands improve their product experience
           </p>
@@ -97,18 +116,42 @@ function Main() {
           className="w-[240px] h-[240px] lg:w-[300px] lg:h-[300px] mt-[36px] z-50 rounded-full relative"
         >
           <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm  absolute top-10 left-3">
-            <img src="/adobe-xd-icon 1.png" alt="Adobe XD" className="object-cover" loading="lazy" />
+            <img
+              src="/adobe-xd-icon 1.png"
+              alt="Adobe XD"
+              className="object-cover"
+              loading="lazy"
+            />
           </div>
           <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm absolute top-10 right-3 flex justify-center items-center">
-            <img src="/figma0.png" alt="Figma" className="w-[16px] lg:w-[23px] object-cover" loading="lazy" />
+            <img
+              src="/figma0.png"
+              alt="Figma"
+              className="w-[16px] lg:w-[23px] object-cover"
+              loading="lazy"
+            />
           </div>
           <div className="w-[109px] h-[35px] lg:w-[152px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm absolute bottom-10 -left-5 flex justify-center items-center gap-1">
-            <img src="/icon 2.png" alt="Flow Chart" className="w-[18px] lg:w-[26px] object-cover" loading="lazy" />
-            <span className="text-[10px] lg:text-[14px] font-bold text-white">FLOW CHART</span>
+            <img
+              src="/icon 2.png"
+              alt="Flow Chart"
+              className="w-[18px] lg:w-[26px] object-cover"
+              loading="lazy"
+            />
+            <span className="text-[10px] lg:text-[14px] font-bold text-white">
+              FLOW CHART
+            </span>
           </div>
           <div className="w-[75px] h-[35px] lg:w-[100px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm absolute bottom-10 right-0 flex justify-center items-center gap-1">
-            <img src="/uikit-seek icon.png" alt="UI Kit" className="w-[18px] lg:w-[22px] object-cover" loading="lazy" />
-            <span className="text-[10px] lg:text-[14px] font-bold text-white">UI KIT</span>
+            <img
+              src="/uikit-seek icon.png"
+              alt="UI Kit"
+              className="w-[18px] lg:w-[22px] object-cover"
+              loading="lazy"
+            />
+            <span className="text-[10px] lg:text-[14px] font-bold text-white">
+              UI KIT
+            </span>
           </div>
           <img src="/profile.png" alt="Profile" className="object-cover" />
         </motion.div>
@@ -122,7 +165,9 @@ function Main() {
         className="w-full flex justify-center gap-2 mt-[45px] text-white z-20"
       >
         <Icon icon="mdi:email" width="24" height="24" />
-        <p className="font-bold text-[16px] lg:text-20px underline">ar.sing7979@gmail.com</p>
+        <p className="font-bold text-[16px] lg:text-20px underline">
+          ar.sing7979@gmail.com
+        </p>
       </motion.div>
 
       {/* About Section */}
@@ -142,12 +187,25 @@ function Main() {
             <button className="w-[105px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
               Who am I?
             </button>
-            <h2 className="font-extrabold text-[22px] lg:text-[34px] mt-[20px]">About Me</h2>
+            <h2 className="font-extrabold text-[22px] lg:text-[34px] mt-[20px]">
+              About Me
+            </h2>
             <p
               className="mt-[15px] w-[310px] lg:w-[1420px] lg:text-[22px] lg:ml-6 text-[15px]"
               style={{ wordSpacing: "3px" }}
             >
-              I am Alireza Rahmani with 3 years of work experience as a Product Designer, and I have acquired the necessary skills and knowledge for the success of various projects.
+              I am Alireza Rahmani with 3 years of work experience as a Product
+              Designer, and I have acquired the necessary skills and knowledge
+              for the success of various projects.
+            </p>
+            <button className="w-[180px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454] mt-[77px] lg:mt-[300px]">
+              What do I know how to do?
+            </button>
+            <span className="font-extrabold text-[22px] mt-[20px] lg:text-[34px]">
+              our mission
+            </span>
+            <p className="text-14px mt-[15px] lg:text-[18px]">
+              Skills I have acquired over the years
             </p>
           </motion.div>
         </MotionConfig>
@@ -160,7 +218,9 @@ function Main() {
             <motion.div
               ref={skillsRef}
               initial={{ opacity: 0, y: 50 }}
-              animate={skillsInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+              animate={
+                skillsInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }
+              }
               className="w-[320px] h-[330px] lg:w-[1416px] lg:h-[360px] mt-[35px] grid grid-cols-12 grid-rows-3 lg:grid-rows-2 justify-items-center"
             >
               {skills.map((skill) => (
@@ -187,7 +247,9 @@ function Main() {
             <motion.div
               ref={portfolioRef}
               initial={{ opacity: 0, y: 50 }}
-              animate={portfolioInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+              animate={
+                portfolioInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }
+              }
               className="text-white w-full flex flex-col items-center mt-28 lg:mt-[385px] relative"
             >
               <img
@@ -198,9 +260,12 @@ function Main() {
               <button className="w-[80px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
                 Portfolio
               </button>
-              <h2 className="font-extrabold text-[22px] lg:text-[30px] mt-[20px]">My Portfolio</h2>
+              <h2 className="font-extrabold text-[22px] lg:text-[30px] mt-[20px]">
+                My Portfolio
+              </h2>
               <p className="mt-[15px] lg:text-18px w-[320px] lg:w-[622px] leading-7 lg:flex lg:justify-center">
-                Projects that I had the honor of collaborating with these dear people.
+                Projects that I had the honor of collaborating with these dear
+                people.
               </p>
             </motion.div>
             <div className="relative lg:grid lg:grid-cols-4 mt-10 gap-x-[70px]">
@@ -218,7 +283,8 @@ function Main() {
                     <div
                       className="w-full h-[449px] lg:h-[451px] absolute top-7"
                       style={{
-                        background: "linear-gradient(180deg, rgba(1, 1, 0, 0) 60%, #000000 85%)",
+                        background:
+                          "linear-gradient(180deg, rgba(1, 1, 0, 0) 60%, #000000 85%)",
                       }}
                     ></div>
                     <motion.button
@@ -244,7 +310,9 @@ function Main() {
             <motion.div
               ref={contactRef}
               initial={{ opacity: 0, y: 50 }}
-              animate={contactInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+              animate={
+                contactInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }
+              }
               className="text-white w-full flex flex-col items-center mt-[124px] lg:mt-[302px] relative"
             >
               <img
@@ -255,18 +323,31 @@ function Main() {
               <button className="w-[71px] h-[35px] bg-[#34343442] text-[12px] rounded-4xl border border-[#34343454]">
                 Call me
               </button>
-              <h2 className="font-extrabold text-[22px] lg:text-[30px] mt-[20px]">Contact Us</h2>
+              <h2 className="font-extrabold text-[22px] lg:text-[30px] mt-[20px]">
+                Contact Us
+              </h2>
               <p className="mt-[15px] w-[320px] leading-7 lg:text-[18px] lg:w-[606px] lg:flex lg:justify-center">
-                Our Services is high-end with best quality that you could ever seen
+                Our Services is high-end with best quality that you could ever
+                seen
               </p>
             </motion.div>
             <LazyPortfolios style="h-[530px] w-[310px] lg:mt-[100px]">
               <div className="w-full h-full flex flex-col items-center py-8">
                 <div className="w-[50px] h-[50px] bg-[#101010] flex justify-center items-center rounded-full">
-                  <Icon icon="mingcute:phone-call-line" width="20" height="20" className="text-white" />
+                  <Icon
+                    icon="mingcute:phone-call-line"
+                    width="20"
+                    height="20"
+                    className="text-white"
+                  />
                 </div>
                 <div className="flex gap-2 text-white items-center mt-[35px]">
-                  <Icon icon="uil:phone" width="20" height="20" className="mt-2" />
+                  <Icon
+                    icon="uil:phone"
+                    width="20"
+                    height="20"
+                    className="mt-2"
+                  />
                   <span>+0991-1476750</span>
                 </div>
                 <div className="flex gap-2 text-white items-center mt-[20px]">
@@ -290,7 +371,11 @@ function Main() {
                     <img src="/icon D.png" alt="Dribbble" />
                   </div>
                 </div>
-                <img src="/Vector 4.png" alt="Background Vector" className="w-[254px] h-[225px]" />
+                <img
+                  src="/Vector 4.png"
+                  alt="Background Vector"
+                  className="w-[254px] h-[225px]"
+                />
               </div>
             </LazyPortfolios>
           </MotionConfig>
