@@ -52,7 +52,9 @@ function Main() {
                 transition={{ delay: 0.1 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <img src="/twitter.png" alt="Twitter" />
+                <a href="https://twitter.com/iam_mahdirahmani">
+                  <img src="/twitter.png" alt="Twitter" />
+                </a>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -60,7 +62,9 @@ function Main() {
                 transition={{ delay: 0.2 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <img src="/iconmonstr-linkedin-4 1.png" alt="LinkedIn" />
+                <a href="">
+                  <img src="/iconmonstr-linkedin-4 1.png" alt="LinkedIn" />
+                </a>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -68,7 +72,9 @@ function Main() {
                 transition={{ delay: 0.3 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <img src="/Behance.png" alt="Behance" />
+                <a href="">
+                  <img src="/Behance.png" alt="Behance" />
+                </a>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -76,7 +82,9 @@ function Main() {
                 transition={{ delay: 0.4 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <img src="/icon D.png" alt="Dribbble" />
+                <a href="">
+                  <img src="/icon D.png" alt="Dribbble" />
+                </a>
               </motion.div>
             </div>
           </div>
@@ -348,28 +356,48 @@ function Main() {
                     height="20"
                     className="mt-2"
                   />
-                  <span>+0991-1476750</span>
+                  <span>+0998-1471493</span>
                 </div>
                 <div className="flex gap-2 text-white items-center mt-[20px]">
                   <Icon icon="solar:letter-bold" width="20" height="20" />
-                  <span>ar.sing7979@gmail.com</span>
+                  <span>rahmaniprodact.ir@gmail.com</span>
                 </div>
                 <div className="flex gap-4 w-full justify-center items-center mt-[40px]">
-                  <div className="w-7 h-7 flex justify-center items-center rounded-full">
+                  <a
+                    className="w-7 h-7 flex justify-center items-center rounded-full"
+                    href="https://www.instagram.com/hort.design?igsh=M3ljdTljaW5uMm0y&utm_source=qr"
+                    target="instagram"
+                  >
                     <img src="/iconmonstr-instagram-14 1.png" alt="Instagram" />
-                  </div>
-                  <div className="w-7 h-7 flex justify-center items-center rounded-full">
+                  </a>
+                  <a
+                    className="w-7 h-7 flex justify-center items-center rounded-full"
+                    href="https://x.com/Hort_design"
+                    target="twitter"
+                  >
                     <img src="/twitter.png" alt="Twitter" />
-                  </div>
-                  <div className="w-7 h-7 flex justify-center items-center rounded-full">
+                  </a>
+                  <a
+                    className="w-7 h-7 flex justify-center items-center rounded-full"
+                    href="https://www.linkedin.com/in/rahmaniprodact"
+                    target="linkedin"
+                  >
                     <img src="/iconmonstr-linkedin-4 1.png" alt="LinkedIn" />
-                  </div>
-                  <div className="w-7 h-7 flex justify-center items-center rounded-full">
+                  </a>
+                  <a
+                    className="w-7 h-7 flex justify-center items-center rounded-full"
+                    href="https://www.behance.net/rahmaniprodact"
+                    target="behance"
+                  >
                     <img src="/Behance.png" alt="Behance" />
-                  </div>
-                  <div className="w-7 h-7 flex justify-center items-center rounded-full">
+                  </a>
+                  <a
+                    className="w-7 h-7 flex justify-center items-center rounded-full"
+                    href="https://dribbble.com/Rahmani_Prodact"
+                    target="dribbble"
+                  >
                     <img src="/icon D.png" alt="Dribbble" />
-                  </div>
+                  </a>
                 </div>
                 <img
                   src="/Vector 4.png"
