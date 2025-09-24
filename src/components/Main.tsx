@@ -39,12 +39,14 @@ function Main() {
                 animate={{ opacity: 1, y: 0 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <img
-                  src="/iconmonstr-instagram-14 1.png"
-                  alt="Instagram"
-                  className="object-cover"
-                  loading="lazy"
-                />
+                <a href="https://www.instagram.com/hort.design?igsh=M3ljdTljaW5uMm0y&utm_source=qr">
+                  <img
+                    src="/iconmonstr-instagram-14 1.png"
+                    alt="Instagram"
+                    className="object-cover"
+                    loading="lazy"
+                  />
+                </a>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -52,7 +54,7 @@ function Main() {
                 transition={{ delay: 0.1 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <a href="https://twitter.com/iam_mahdirahmani">
+                <a href="https://x.com/Hort_design">
                   <img src="/twitter.png" alt="Twitter" />
                 </a>
               </motion.div>
@@ -62,7 +64,7 @@ function Main() {
                 transition={{ delay: 0.2 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <a href="">
+                <a href="https://www.linkedin.com/in/rahmaniprodact">
                   <img src="/iconmonstr-linkedin-4 1.png" alt="LinkedIn" />
                 </a>
               </motion.div>
@@ -82,7 +84,7 @@ function Main() {
                 transition={{ delay: 0.4 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <a href="">
+                <a href="https://dribbble.com/Rahmani_Prodact">
                   <img src="/icon D.png" alt="Dribbble" />
                 </a>
               </motion.div>
@@ -123,7 +125,7 @@ function Main() {
           transition={{ duration: 1 }}
           className="w-[240px] h-[240px] lg:w-[300px] lg:h-[300px] mt-[36px] z-50 rounded-full relative"
         >
-          <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm  absolute top-10 left-3">
+          <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm  absolute top-10 left-1">
             <img
               src="/adobe-xd-icon 1.png"
               alt="Adobe XD"
@@ -131,7 +133,7 @@ function Main() {
               loading="lazy"
             />
           </div>
-          <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm absolute top-10 right-3 flex justify-center items-center">
+          <div className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] p-1 bg-[#1F1E22CC] rounded-sm absolute top-10 right-1 flex justify-center items-center">
             <img
               src="/figma0.png"
               alt="Figma"
@@ -139,7 +141,7 @@ function Main() {
               loading="lazy"
             />
           </div>
-          <div className="w-[109px] h-[35px] lg:w-[152px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm absolute bottom-10 -left-5 flex justify-center items-center gap-1">
+          <div className="w-[109px] h-[35px] lg:w-[152px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm absolute bottom-10 -left-12 flex justify-center items-center gap-1">
             <img
               src="/icon 2.png"
               alt="Flow Chart"
@@ -150,7 +152,7 @@ function Main() {
               FLOW CHART
             </span>
           </div>
-          <div className="w-[75px] h-[35px] lg:w-[100px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm absolute bottom-10 right-0 flex justify-center items-center gap-1">
+          <div className="w-[75px] h-[35px] lg:w-[100px] lg:h-[42px] p-1 bg-[#1F1E22CC] rounded-sm absolute bottom-10 -right-4 flex justify-center items-center gap-1">
             <img
               src="/uikit-seek icon.png"
               alt="UI Kit"
@@ -161,7 +163,13 @@ function Main() {
               UI KIT
             </span>
           </div>
-          <img src="/profile.png" alt="Profile" className="object-cover" />
+          <div className="rounded-full shadow-element">
+            <img
+              src="/horn.png"
+              alt="Profile"
+              className="object-cover rounded-full "
+            />
+          </div>
         </motion.div>
       </LazyMotion>
 
@@ -174,7 +182,7 @@ function Main() {
       >
         <Icon icon="mdi:email" width="24" height="24" />
         <p className="font-bold text-[16px] lg:text-20px underline">
-          ar.sing7979@gmail.com
+          rahmaniprodact.ir@gmail.com
         </p>
       </motion.div>
 

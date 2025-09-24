@@ -3,3 +3,6 @@
 body{
     background-color: black;
 }
+.shadow-element {
+  box-shadow: 1px 0px 24px 10px rgb(104, 106, 109);
+}
