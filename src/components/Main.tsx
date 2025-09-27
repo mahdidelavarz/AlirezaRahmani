@@ -420,7 +420,7 @@ function Main() {
 
       {/* Footer */}
       <div className="w-full h-[50px] lg:h-[60px] lg:text-[17px] bg-[#121212] flex justify-center items-center z-50 text-white">
-        © Alireza Rahmani
+        © Horn Design
       </div>
     </div>
   );
