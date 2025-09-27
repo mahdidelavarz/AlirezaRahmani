@@ -39,7 +39,7 @@ function Main() {
                 animate={{ opacity: 1, y: 0 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <a href="https://www.instagram.com/hort.design?igsh=M3ljdTljaW5uMm0y&utm_source=qr">
+                <a href="https://www.instagram.com/horn_designer?igsh=M3ljdTljaW5uMm0y&utm_source=qr">
                   <img
                     src="/iconmonstr-instagram-14 1.png"
                     alt="Instagram"
@@ -54,7 +54,7 @@ function Main() {
                 transition={{ delay: 0.1 }}
                 className="w-7 h-7 lg:w-9 lg:h-9 flex justify-center items-center rounded-full"
               >
-                <a href="https://x.com/Hort_design">
+                <a href="https://x.com/Horn__design">
                   <img src="/twitter.png" alt="Twitter" />
                 </a>
               </motion.div>
@@ -100,7 +100,7 @@ function Main() {
           animate={{ opacity: 1, y: 0 }}
           className="font-extrabold text-white text-[32px] lg:text-[50px] z-50"
         >
-          Alireza Rahmani
+          Horn Design
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -373,14 +373,14 @@ function Main() {
                 <div className="flex gap-4 w-full justify-center items-center mt-[40px]">
                   <a
                     className="w-7 h-7 flex justify-center items-center rounded-full"
-                    href="https://www.instagram.com/hort.design?igsh=M3ljdTljaW5uMm0y&utm_source=qr"
+                    href="https://www.instagram.com/horn_designer?igsh=M3ljdTljaW5uMm0y&utm_source=qr"
                     target="instagram"
                   >
                     <img src="/iconmonstr-instagram-14 1.png" alt="Instagram" />
                   </a>
                   <a
                     className="w-7 h-7 flex justify-center items-center rounded-full"
-                    href="https://x.com/Hort_design"
+                    href="https://x.com/Horn__design"
                     target="twitter"
                   >
                     <img src="/twitter.png" alt="Twitter" />
