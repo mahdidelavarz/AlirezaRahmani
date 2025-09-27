@@ -181,9 +181,12 @@ function Main() {
         className="w-full flex justify-center gap-2 mt-[45px] text-white z-20"
       >
         <Icon icon="mdi:email" width="24" height="24" />
-        <p className="font-bold text-[16px] lg:text-20px underline">
+        <a
+          className="font-bold text-[16px] lg:text-20px underline"
+          href="mailto:rahmaniprodact.ir@gmail.com"
+        >
           rahmaniprodact.ir@gmail.com
-        </p>
+        </a>
       </motion.div>
 
       {/* About Section */}
@@ -364,11 +367,21 @@ function Main() {
                     height="20"
                     className="mt-2"
                   />
-                  <span>+0998-1471493</span>
+                  <a
+                    className="font-bold text-[16px] lg:text-20px underline"
+                    href="tel:+09981471493"
+                  >
+                    +0998-1471493
+                  </a>
                 </div>
                 <div className="flex gap-2 text-white items-center mt-[20px]">
                   <Icon icon="solar:letter-bold" width="20" height="20" />
-                  <span>rahmaniprodact.ir@gmail.com</span>
+                  <a
+                    className="font-bold text-[16px] lg:text-20px underline"
+                    href="mailto:rahmaniprodact.ir@gmail.com"
+                  >
+                    rahmaniprodact.ir@gmail.com
+                  </a>
                 </div>
                 <div className="flex gap-4 w-full justify-center items-center mt-[40px]">
                   <a
